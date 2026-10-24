@@ -4,7 +4,7 @@ import requests
 
 API_BASE_URL = os.getenv(
     "API_URL",
-    "http://localhost:8000"
+    "https://insurance-premium-api-7ks7.onrender.com"
 ).rstrip("/")
 
 API_URL = f"{API_BASE_URL}/predict"
